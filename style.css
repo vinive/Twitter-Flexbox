@@ -118,13 +118,17 @@ header#main-header div.side button {
 div.banner {
   height: 380px;
   width: 100%;
-  background: #3bb9e3;
+  background: #191970;
 
   display: flex;
   align-items: center;
   justify-content: center;
 
   color: #fff;
+}
+
+div.banner img {
+  width: 93%;
 }
 
 div.bar {
@@ -271,6 +275,21 @@ div.wrapper-content aside.profile ul.list  li img {
 
 div.wrapper-content aside.profile .widget img {
   width: 30px;
+}
+
+div.wrapper-content aside.profile .widget ul img {
+  width: 50px;
+  border-radius: 100%;
+  padding: 2px;
+  margin-top: 2px;
+}
+
+div.wrapper-content aside.profile .widget ul.lof img {
+  width: 80px;
+  height: 70px;
+  border-radius: 20%;
+  padding: 2px;
+  margin-top: 2px;
 }
 
 div.wrapper-content aside.profile .widget {
